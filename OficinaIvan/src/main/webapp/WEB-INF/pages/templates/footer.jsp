@@ -1,0 +1,1 @@
+<h5>Desenvolvido e criado por Stark Tecnologia - João Paulo Maida - jpmaida@gmail.com</h5>

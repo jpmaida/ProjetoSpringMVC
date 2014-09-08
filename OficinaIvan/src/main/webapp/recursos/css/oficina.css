@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+
+body{
+	font-family: Arial;
+	font-size: 13px;
+	margin: 0 0 0 0;
+	height: 100%;
+}
+
+img {
+	cursor: pointer;
+}
+
+.obrigatorio{
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.erro-wrapper{
+	padding: 10px 0px 10px 0px;
+}
+
+.header{
+	height: 15%;
+	background-color: rgb(36, 36, 78);
+}
+
+.header h1{
+	margin: 0 0 0 0;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: rgb(250, 240, 240);
+	font-size: 46px;
+}
+
+.header span{
+	margin-right: 10px;
+	color: rgb(250, 240, 240);
+	float: right;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.footer{
+	height: 7%; 
+	clear: both; 
+	width: 100%; 
+	bottom: 0;
+	position: absolute;
+}
+
+.footer h5{
+	margin: 0 0 0 0;
+	height: 20px;
+	width: 300px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-10px;
+	margin-left:-150px;
+}
+
+.content{
+	height: 78%;
+}
+
+.menu{
+	display: inline; 
+	width: 20%; 
+	float: left; 
+	height: 100%;
+	background-color: rgb(202, 202, 202);
+}
+
+.content2{
+	display: inline; 
+	width: 80%; 
+	float: left; 
+	height: 100%;
+	overflow: auto;
+}
+
+.corpo{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+ul#menu { 
+	margin: 0; /* retira o recuo para alguns browsers */
+	padding:0; /* retira o recuo para outros browsers */
+	list-style-type: none; /* retira o marcador de listas*/ 
+	background-color: #107CE0; /* cor do fundo */ 
+	width:200px; /* uma largura para o menu */ 
+	border:1px solid #0A0A0A; /* uma borda em volta do menu */
+	margin-left: 20px;
+	margin-top: 25px; 
+}
+
+ul#menu li {
+
+}
+
+ul#menu li a:link {
+	text-decoration: none; /* retira o sublinhado dos links */ 
+	font-family: Geneva, Arial, Helvetica, sans-serif; /* define o tipo de fonte */ 
+	font-size: 14px; /* define o tamanho da fonte */ 
+	color: white; /* define a cor da fonte */ 
+}
+
+ul#menu li a:hover {
+	background-color: #57544C; /* cor do fundo */
+	color: white; /* cor da fonte */
+	display:block; 
+	font-weight: bold; 
+}
+
+ul#menu li a:link, ul#menu li a:visited {
+	/*uma barrinha a esquerda dos links */ 
+	padding-left:5px; /* espaçamento entre a barrinha e o texto do link */ 
+	color: white;
+}
+
+.tabela{
+	width: 80%;
+}
+
+table.tabela thead tr {
+	background-color: lightgrey;
+}
+
+.odd{
+	background-color: rgb(98, 145, 228);
+}
+
+.even{
+	background-color: white;
+}
+
+div.box label { 
+	width:100%; 
+	display: block; 
+	background: #346AAF; 
+	border-top:1px solid white; 
+	border-bottom:1px solid white; 
+	padding:10px 0 10px 0; 
+}
+
+div.box label span.descricao { 
+	display: block; 
+	color:#bbbbbb; 
+	font-size:12px; 
+	float:left; 
+	width: 200px; 
+	text-align:right; 
+	padding:5px 20px 0 0; 
+}
+
+div.box .input_text { 
+	padding:10px 10px; 
+	width: 400px; 
+	background:#262626; 
+	border-bottom: 1px double #171717; 
+	border-top: 1px double #171717; 
+	border-left:1px double #333333; 
+	border-right:1px double #333333;
+	color: white
+}
+
+.botao-wrapper{
+	margin-top: 10px;
+}
+
+.sucesso-wrapper{
+	width: 80%;
+	margin-bottom: 10px;
+}

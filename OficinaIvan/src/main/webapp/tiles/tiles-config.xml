@@ -1,0 +1,75 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<definition name="template.view" template="/WEB-INF/pages/templates/template.jsp">
+		<put-attribute name="header" value="/WEB-INF/pages/templates/header.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/pages/templates/menu.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/pages/templates/footer.jsp"></put-attribute>
+	</definition>
+
+	<definition name="home.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/home/home.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="lis-cliente.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/cliente/lis-cliente.jsp"></put-attribute>
+	</definition>
+
+	<definition name="inc-cliente.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/cliente/inc-cliente.jsp"></put-attribute>
+	</definition>
+
+	<definition name="det-cliente.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/cliente/det-cliente.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="alt-cliente.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/cliente/alt-cliente.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="inc-carro.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/carro/inc-carro.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="inc-servico.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/servico/inc-servico.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="lis-servico.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/servico/lis-servico.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="det-servico.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/servico/det-servico.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="alt-servico.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/servico/alt-servico.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="det-historico.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/historico/det-historico.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="inc-marca.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/marca/inc-marca.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="lis-marca.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/marca/lis-marca.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="det-marca.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/marca/det-marca.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="alt-marca.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/marca/alt-marca.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="error.view" extends="template.view">
+		<put-attribute name="content" value="/WEB-INF/pages/error/error.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>
